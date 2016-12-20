@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7B36D1691E08A1E40008F85E /* FactProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B36D1681E08A1E40008F85E /* FactProvider.swift */; };
 		7B7C60671E0850A500DF89F4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B7C60661E0850A500DF89F4 /* AppDelegate.swift */; };
 		7B7C60691E0850A500DF89F4 /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B7C60681E0850A500DF89F4 /* MainVC.swift */; };
 		7B7C606C1E0850A500DF89F4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7B7C606A1E0850A500DF89F4 /* Main.storyboard */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7B36D1681E08A1E40008F85E /* FactProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FactProvider.swift; sourceTree = "<group>"; };
 		7B7C60631E0850A500DF89F4 /* JustFacts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JustFacts.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7B7C60661E0850A500DF89F4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7B7C60681E0850A500DF89F4 /* MainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
@@ -84,6 +86,7 @@
 		7B7C607A1E08571200DF89F4 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				7B36D1681E08A1E40008F85E /* FactProvider.swift */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -163,6 +166,7 @@
 			files = (
 				7B7C60691E0850A500DF89F4 /* MainVC.swift in Sources */,
 				7B7C60671E0850A500DF89F4 /* AppDelegate.swift in Sources */,
+				7B36D1691E08A1E40008F85E /* FactProvider.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

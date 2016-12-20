@@ -13,11 +13,13 @@ class MainVC: UIViewController {
     
     @IBOutlet weak var factLabel: UILabel!
     @IBOutlet weak var factBtn: UIButton!
-    
+    let factProvider = FactProvider()
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        
+        factLabel.text = factProvider.randomFact()
     }
 
     override func didReceiveMemoryWarning() {
@@ -26,7 +28,7 @@ class MainVC: UIViewController {
     }
 
     @IBAction func showFactPressed(_ sender: UIButton) {
-        
+        factLabel.text = factProvider.randomFact()
     }
 
 }
